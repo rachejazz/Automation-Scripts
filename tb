@@ -1,0 +1,6 @@
+#!/bin/bash
+if [[ ! -z $1 ]]
+	then cat $1 | ncat termbin.com 9999
+else
+	echo "Usage: ./tb [paste file]"
+fi
