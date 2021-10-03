@@ -1,0 +1,3 @@
+#!/bin/fish
+set SHELL /bin/fish
+asciinema rec --stdin
